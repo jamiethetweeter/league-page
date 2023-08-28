@@ -26,7 +26,7 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 
 export const managers = [
     {
-      "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Stevie",
       "tookOver": 2010, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Wisconsin, USA", // (optional)
@@ -48,7 +48,7 @@ export const managers = [
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
-      "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Patrick",
       "tookOver": 2011, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Ununited Ireland", // (optional)
