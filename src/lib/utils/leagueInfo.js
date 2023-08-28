@@ -27,6 +27,7 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 export const managers = [
     {
       "roster": 5,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID" : "473631145779523584",
       "name": "Stevie",
       "tookOver": 2010, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Wisconsin, USA", // (optional)
@@ -50,6 +51,7 @@ export const managers = [
     {
       "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Patrick",
+      "managerID" : "473699246260875264",
       "tookOver": 2011, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Ununited Ireland", // (optional)
       "bio": "Lorem ipsum...",
@@ -71,6 +73,7 @@ export const managers = [
     },
     {
       "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID" : "473631731287584768",
       "name": "Luke",
       "tookOver": 2010, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "The Midlands", // (optional)
@@ -93,6 +96,7 @@ export const managers = [
     },
    {
       "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID" : "206194861680889856",
       "name": "Jamie",
       "tookOver": 2010, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Abingdon", // (optional)
@@ -115,6 +119,7 @@ export const managers = [
     },
    {
       "roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID" : "473623429841416192",
       "name": "Sam",
       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Southmoor", // (optional)
@@ -137,6 +142,7 @@ export const managers = [
     },
    {
       "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID" : "336580076701224960",
       "name": "Jake",
       "tookOver": 2012, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Abingdon", // (optional)
@@ -147,7 +153,7 @@ export const managers = [
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
         name: "Tom", // Can be anything (usually your rival's name)
-        link: 6, // manager array number within this array, or null to link back to all managers page
+        link: 7, // manager array number within this array, or null to link back to all managers page
         image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
       "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
@@ -159,6 +165,7 @@ export const managers = [
     },
    {
       "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID" : "472454795693649920",
       "name": "Sean",
       "tookOver": 2010, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "London", // (optional)
@@ -181,6 +188,7 @@ export const managers = [
     },
    {
       "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID" : "80294942412783616",
       "name": "Tom",
       "tookOver": 2010, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Wantage", // (optional)
