@@ -1,6 +1,6 @@
 /*   STEP 1   */
-export const leagueID = "853061035240816640"; // your league ID
-export const leagueName = "FLEG12"; // your league name
+export const leagueID = "967072889914683392"; // your league ID
+export const leagueName = "FLEG13"; // your league name
 export const dues = 0; // (optional) used in template constitution page
 export const dynasty = false; // true for dynasty leagues, false for redraft and keeper
 export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
